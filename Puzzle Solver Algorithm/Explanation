@@ -1,0 +1,11 @@
+I think everyone knows the game of fives. This is a slightly simplified version - a game of 8.
+Our goal is to rearrange the blocks so that they are arranged in ascending order, while taking as few steps as possible. It is allowed to move blocks horizontally and vertically into an empty square.
+
+We will describe the solution to the problem illustrated by one of the artificial intelligence algorithms known as the A* search algorithm. We define a board as a search node (that is, the result of a move is a board with elements located in a certain order), we also need to remember the number of steps that must be taken to reach this search node and the previous search node
+First, let's insert the initial search node (input location, 0 steps, null previous search node) into the priority queue. After that, we remove the search node with the minimum priority from the queue and insert all its successors into the queue (those that can be reached in one step from this node). We repeat this procedure until we get a node from the queue that corresponds to the final state (a board on which all the blocks are in their places).
+The success of our activity depends on the selection of the priority function. Consider two functions:
+The Hamming function is the number of blocks in incorrect positions, plus the number of steps taken to reach the current search node. It is intuitively clear that the position on the board in which a small number of blocks are not in their places is quite close to the desired state.
+The Manhattan function is the sum of the Manhattan distances (the sum of the vertical and horizontal distances) from the current position of each block to the desired one, plus the number of steps taken to reach the current state.
+Solvability condition. We change the blocks in pairs until the blocks are located in the correct order. If there is an even number of such permutations, then the problem is solvable, otherwise it is unsolvable
+
+To run use solver.py
