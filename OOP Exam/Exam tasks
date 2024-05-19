@@ -1,0 +1,23 @@
+"Object-oriented programming"
+Control work for students of the 2nd year of the Faculty of Informatics of the National University "Kyiv-Mohyla Academy"
+Spring trimester 2023-24 academic year
+
+Task 1: ﻿﻿﻿Without using loops and branches using patterns of partial specializations, write a program to output the first 10 powers of two.
+Task 2: Define a parameterized class of abstract doubly linked lists
+¡Double listing.
+Task 3: ﻿﻿﻿Implement the parameterized DoubleList class of doubly linked lists.
+Task 4: ﻿﻿﻿Implement a parameterized class of cyclic doubly linked lists
+CyclicDoubleList.
+Task 5: After supplementing doubly linked lists with iterators, implement a search function for a given element in the list. Apply these to each of the list types.
+Task 6: ﻿﻿﻿Define the Pyramide class of triangular pyramids by four vertices, providing vertex selectors and modifiers.
+Task 7: Complete the pyramid with the functions of building its faces.
+﻿﻿﻿Task 8:Define the class of short strings template <int n> class ShortString of length not greater than n.
+Task 9: ﻿﻿﻿In the ShortString class, implement the += and + concatenation operators. 
+Taskn 10: When going beyond n, create an exceptional situation.
+﻿﻿﻿﻿Program the processing
+• exceptional
+situations
+in the ShortString class
+calculating the result of an interrupted operation
+in the String class of lines
+unlimited pool.
