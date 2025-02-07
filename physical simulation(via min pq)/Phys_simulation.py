@@ -4,6 +4,9 @@
 #
 # In this task i used min pq to interact with the nearest collision
 
+# IMPORTANT!
+# Before running the code, go to Settings => Python Scientific => turn of the "Show plots on the tool window"
+
 import functools
 import math
 import random
